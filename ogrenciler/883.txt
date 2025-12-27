@@ -1,0 +1,6 @@
+Numara: 883
+Ad: Derya
+Soyad: Kara
+Vize: 86
+Final: 48
+Devamsizlik: 4

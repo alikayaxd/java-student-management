@@ -1,0 +1,6 @@
+Numara: 637
+Ad: Yasin
+Soyad: Öztürk
+Vize: 52
+Final: 96
+Devamsizlik: 3

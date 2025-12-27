@@ -1,0 +1,6 @@
+Numara: 997
+Ad: Hüseyin
+Soyad: Kaya
+Vize: 60
+Final: 30
+Devamsizlik: 5

@@ -1,0 +1,6 @@
+Numara: 181
+Ad: Sevgi
+Soyad: Aslan
+Vize: 77
+Final: 76
+Devamsizlik: 5

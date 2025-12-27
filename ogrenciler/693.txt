@@ -1,0 +1,6 @@
+Numara: 693
+Ad: Merve
+Soyad: Öztürk
+Vize: 38
+Final: 51
+Devamsizlik: 1

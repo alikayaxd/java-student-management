@@ -1,0 +1,6 @@
+Numara: 775
+Ad: Zeynep
+Soyad: Öztürk
+Vize: 95
+Final: 34
+Devamsizlik: 4

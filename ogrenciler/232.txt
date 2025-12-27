@@ -1,0 +1,6 @@
+Numara: 232
+Ad: Kemal
+Soyad: Eren
+Vize: 76
+Final: 35
+Devamsizlik: 1

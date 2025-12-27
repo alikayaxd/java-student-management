@@ -1,0 +1,6 @@
+Numara: 417
+Ad: Yasin
+Soyad: Çetin
+Vize: 69
+Final: 66
+Devamsizlik: 4

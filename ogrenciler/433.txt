@@ -1,0 +1,6 @@
+Numara: 433
+Ad: Ayşe
+Soyad: Aslan
+Vize: 22
+Final: 63
+Devamsizlik: 2

@@ -1,0 +1,6 @@
+Numara: 744
+Ad: Hasan
+Soyad: Kaya
+Vize: 37
+Final: 81
+Devamsizlik: 4

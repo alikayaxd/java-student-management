@@ -1,0 +1,6 @@
+Numara: 380
+Ad: Fatma
+Soyad: Aksoy
+Vize: 91
+Final: 73
+Devamsizlik: 1

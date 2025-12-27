@@ -1,0 +1,6 @@
+Numara: 244
+Ad: Merve
+Soyad: Eren
+Vize: 97
+Final: 89
+Devamsizlik: 3

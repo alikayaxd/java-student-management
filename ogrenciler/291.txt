@@ -1,0 +1,7 @@
+Numara: 291
+Ad: Ahmet
+Soyad: Eren
+Vize: 45
+Final: 45
+Devamsizlik: 4
+Devamsizlik: 8

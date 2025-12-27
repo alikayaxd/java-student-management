@@ -1,0 +1,6 @@
+Numara: 464
+Ad: Selim
+Soyad: Doğan
+Vize: 45
+Final: 65
+Devamsizlik: 4

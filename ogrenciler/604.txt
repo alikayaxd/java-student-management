@@ -1,0 +1,6 @@
+Numara: 604
+Ad: Zeynep
+Soyad: Aksoy
+Vize: 86
+Final: 33
+Devamsizlik: 4

@@ -1,0 +1,6 @@
+Numara: 425
+Ad: Fatma
+Soyad: Kara
+Vize: 64
+Final: 71
+Devamsizlik: 5

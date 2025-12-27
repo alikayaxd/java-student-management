@@ -1,0 +1,6 @@
+Numara: 960
+Ad: Kemal
+Soyad: Yılmaz
+Vize: 42
+Final: 45
+Devamsizlik: 3

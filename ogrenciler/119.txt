@@ -1,0 +1,6 @@
+Numara: 119
+Ad: Yasin
+Soyad: Çelik
+Vize: 99
+Final: 57
+Devamsizlik: 4

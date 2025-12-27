@@ -1,0 +1,6 @@
+Numara: 279
+Ad: Derya
+Soyad: Bozkurt
+Vize: 78
+Final: 60
+Devamsizlik: 2

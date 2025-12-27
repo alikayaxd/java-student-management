@@ -1,0 +1,6 @@
+Numara: 563
+Ad: Yasin
+Soyad: Demir
+Vize: 89
+Final: 65
+Devamsizlik: 3
