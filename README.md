@@ -20,23 +20,25 @@ Java Swing kullanılarak geliştirilmiş, Nesne Yönelimli Programlama (OOP) kav
 ## Proje Yapısı
 
 src/
-└── main/
-├── java/
-│ └── com/ogrenciyonetim/
-│ ├── OgrenciYonetimApp.java
-│ ├── model/
-│ │ └── Student.java
-│ ├── service/
-│ │ └── FileStudentService.java
-│ ├── util/
-│ │ └── LogoUtil.java
-│ └── gui/
-│ ├── LoginFrame.java
-│ ├── MainFrame.java
-│ ├── dialogs/
-│ └── panels/
-└── resources/
-└── logo.png
+├── main/
+│   ├── java/
+│   │   └── com/
+│   │       └── ogrenciyonetim/
+│   │           ├── OgrenciYonetimApp.java
+│   │           ├── model/
+│   │           │   └── Student.java
+│   │           ├── service/
+│   │           │   └── FileStudentService.java
+│   │           ├── util/
+│   │           │   └── LogoUtil.java
+│   │           └── gui/
+│   │               ├── LoginFrame.java
+│   │               ├── MainFrame.java
+│   │               ├── dialogs/
+│   │               └── panels/
+│   └── resources/
+│       └── logo.png
+
 
 ## Eclipse'de Açma
 
