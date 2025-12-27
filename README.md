@@ -1,6 +1,6 @@
 # Öğrenci Yönetim Sistemi
 
-C# konsol uygulamasından Java Swing GUI uygulamasına dönüştürülmüş öğrenci yönetim sistemi.
+Java Swing kullanılarak geliştirilmiş, Nesne Yönelimli Programlama (OOP) kavramlarını uygulamalı olarak pekiştirmeye yönelik Öğrenci Yönetim Sistemi.
 
 ## Özellikler
 
