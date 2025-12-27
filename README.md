@@ -5,127 +5,101 @@ Java Swing kullanılarak geliştirilmiş, Nesne Yönelimli Programlama (OOP) kav
 ## Özellikler
 
 - ✅ Login ekranı (Kullanıcı adı: admin, Şifre: admin123)
-- ✅ Öğrenci ekleme/silme/listeleme
-- ✅ Not girişi (Vize/Final)
+- ✅ Öğrenci ekleme, silme ve listeleme
+- ✅ Not girişi (Vize / Final)
 - ✅ Devamsızlık ekleme
 - ✅ Başarı raporu oluşturma
-- ✅ En başarılı/başarısız öğrenci bulma
+- ✅ En başarılı ve en başarısız öğrenciyi bulma
 - ✅ Sınıf ortalaması hesaplama
-- ✅ Not histogramı görüntüleme (Gerçek grafik çubukları)
-- ✅ Öğrenci not grafiği görüntüleme (Gerçek grafik çubukları)
+- ✅ Not histogramı görüntüleme (gerçek grafik çubukları)
+- ✅ Öğrenci not grafiği görüntüleme
 - ✅ Recursive öğrenci sayısı hesaplama
 - ✅ Modern GUI tasarımı
 - ✅ Üniversite logosu desteği
 
 ## Proje Yapısı
 
-```
-OgrenciYonetimSistemi/
-├── .project                    # Eclipse proje dosyası
-├── .classpath                  # Eclipse classpath dosyası
-├── .settings/                  # Eclipse ayarları
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/
-│       │       └── ogrenciyonetim/
-│       │           ├── OgrenciYonetimApp.java    # Ana uygulama (Eclipse uyumlu)
-│       │           ├── model/
-│       │           │   └── Student.java          # Öğrenci model sınıfı
-│       │           ├── service/
-│       │           │   └── FileStudentService.java  # Dosya tabanlı veri yönetimi
-│       │           ├── util/
-│       │           │   └── LogoUtil.java        # Logo yardımcı sınıfı
-│       │           └── gui/
-│       │               ├── LoginFrame.java       # Login ekranı
-│       │               ├── MainFrame.java        # Ana menü ekranı
-│       │               ├── dialogs/              # Dialog pencereleri
-│       │               └── panels/               # Panel bileşenleri
-│       └── resources/
-│           └── logo.png                     # Üniversite logosu
-└── bin/                        # Derlenmiş sınıf dosyaları
-```
+src/
+└── main/
+├── java/
+│ └── com/ogrenciyonetim/
+│ ├── OgrenciYonetimApp.java
+│ ├── model/
+│ │ └── Student.java
+│ ├── service/
+│ │ └── FileStudentService.java
+│ ├── util/
+│ │ └── LogoUtil.java
+│ └── gui/
+│ ├── LoginFrame.java
+│ ├── MainFrame.java
+│ ├── dialogs/
+│ └── panels/
+└── resources/
+└── logo.png
 
 ## Eclipse'de Açma
 
-1. Eclipse'i açın
-2. File → Import → General → Existing Projects into Workspace
-3. "Select root directory" seçeneğini seçin
-4. Proje klasörünü seçin (`C:\Users\ali\Desktop\new`)
-5. "Copy projects into workspace" seçeneğini işaretleyin (isteğe bağlı)
-6. Finish'e tıklayın
+1. Eclipse'i açın  
+2. File → Import → General → Existing Projects into Workspace  
+3. "Select root directory" seçeneğini seçin  
+4. Proje klasörünü seçin  
+5. Finish'e tıklayın  
 
 ## Çalıştırma
 
-### Eclipse'de:
-1. Projeyi Eclipse'de açın
-2. `OgrenciYonetimApp.java` dosyasına sağ tıklayın
-3. Run As → Java Application seçin
-
-### Komut satırından:
-```bash
-javac -d bin -encoding UTF-8 -cp bin src/main/java/com/ogrenciyonetim/OgrenciYonetimApp.java src/main/java/com/ogrenciyonetim/model/*.java src/main/java/com/ogrenciyonetim/service/*.java src/main/java/com/ogrenciyonetim/gui/*.java src/main/java/com/ogrenciyonetim/gui/dialogs/*.java src/main/java/com/ogrenciyonetim/gui/panels/*.java src/main/java/com/ogrenciyonetim/util/*.java
-
-java -cp bin com.ogrenciyonetim.OgrenciYonetimApp
-```
+### Eclipse Üzerinden
+1. Projeyi Eclipse'te açın  
+2. `OgrenciYonetimApp.java` dosyasına sağ tıklayın  
+3. Run As → Java Application  
 
 ## Giriş Bilgileri
 
 - **Kullanıcı Adı:** `admin`
 - **Şifre:** `admin123`
 
-## Veri Saklama
+## Veri Saklama Yapısı
 
-Öğrenci bilgileri dosya sisteminde saklanır:
-- **Konum:** `[Proje Klasörü]/ogrenciler/` (proje klasörü nerede olursa olsun otomatik bulunur)
-- **Format:** Her öğrenci için `[numara].txt` dosyası
-- **İçerik:** Numara, Ad, Soyad, Vize/Vize Notu, Final/Final Notu, Devamsızlık/Devamsizlik
-- **Desteklenen formatlar:** Hem "Vize:" hem "Vize Notu:" formatları desteklenir
+- Öğrenci verileri dosya tabanlı olarak saklanır  
+- Her öğrenci için `[numara].txt` dosyası oluşturulur  
+- Dosyalar proje dizini altında otomatik olarak bulunan `ogrenciler/` klasöründe tutulur  
+- Hem `Vize:` hem `Vize Notu:` formatları desteklenir  
 
-## Teknolojiler
+## Kullanılan Teknolojiler
 
 - Java 8+
-- Swing (GUI)
-- WindowBuilder uyumlu kod yapısı
+- Java Swing (GUI)
+- WindowBuilder uyumlu yapı
 - Dosya tabanlı veri saklama
 - Graphics2D ile grafik çizimi
 
 ## OOP Prensipleri
 
-- **Encapsulation:** Model sınıflarında getter/setter metodları
-- **Separation of Concerns:** Model-View-Service katmanları
-- **Single Responsibility:** Her sınıf tek bir sorumluluğa sahip
-- **Dependency Injection:** Service sınıfları constructor ile enjekte edilir
+- **Encapsulation:** Getter / Setter kullanımı  
+- **Separation of Concerns:** Model, GUI ve Service katmanları  
+- **Single Responsibility Principle:** Her sınıf tek sorumluluğa sahiptir  
+- **Dependency Injection:** Servis sınıfları constructor üzerinden enjekte edilir  
 
-## Özellikler
+## GUI ve Performans Özellikleri
 
-### Modern GUI
+### Modern Arayüz
 - Gradient arka planlar
 - Hover efektleri
 - Modern renk paleti
-- Segoe UI fontu
-- Logo desteği
+- Logo entegrasyonu
 
-### Performans Optimizasyonları
-- Cache mekanizması (5 saniye)
+### Performans
+- Cache mekanizması
 - Lazy loading
 - SwingWorker ile arka plan işlemleri
-- ConcurrentHashMap ile thread-safe cache
-
-### Grafik Özellikleri
-- Gerçek çubuk grafikleri (Graphics2D)
-- Renk kodlu gösterimler
-- Eksen ve etiketler
-- Profesyonel görünüm
+- Thread-safe veri yapıları
 
 ## Notlar
 
-- Logo dosyası: `src/main/resources/logo.png` konumunda olmalıdır
-- Öğrenci verileri proje klasöründeki `ogrenciler/` klasöründen otomatik olarak okunur
-- Proje klasörü (new klasörü) nerede olursa olsun, otomatik olarak bulunur
-- Tüm GUI bileşenleri WindowBuilder ile uyumludur
-- Eclipse'de sorun yaşamamak için Main.java yerine OgrenciYonetimApp.java kullanılmıştır
+- Logo dosyası `src/main/resources/logo.png` konumunda bulunmalıdır  
+- Tüm GUI bileşenleri WindowBuilder ile uyumludur  
+- Uygulama giriş noktası `OgrenciYonetimApp.java` sınıfıdır  
 
 ## Geliştirici
 
-Muhammed Ali KAYA
+**Muhammed Ali Kaya**
