@@ -19,25 +19,33 @@ Java Swing kullanılarak geliştirilmiş, Nesne Yönelimli Programlama (OOP) kav
 
 ## Proje Yapısı
 
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── ogrenciyonetim/
-│   │           ├── OgrenciYonetimApp.java
-│   │           ├── model/
-│   │           │   └── Student.java
-│   │           ├── service/
-│   │           │   └── FileStudentService.java
-│   │           ├── util/
-│   │           │   └── LogoUtil.java
-│   │           └── gui/
-│   │               ├── LoginFrame.java
-│   │               ├── MainFrame.java
-│   │               ├── dialogs/
-│   │               └── panels/
-│   └── resources/
-│       └── logo.png
+```
+OgrenciYonetimSistemi/
+├── .project                    # Eclipse proje dosyası
+├── .classpath                  # Eclipse classpath dosyası
+├── .settings/                  # Eclipse ayarları
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── ogrenciyonetim/
+│       │           ├── OgrenciYonetimApp.java    # Ana uygulama (Eclipse uyumlu)
+│       │           ├── model/
+│       │           │   └── Student.java          # Öğrenci model sınıfı
+│       │           ├── service/
+│       │           │   └── FileStudentService.java  # Dosya tabanlı veri yönetimi
+│       │           ├── util/
+│       │           │   └── LogoUtil.java        # Logo yardımcı sınıfı
+│       │           └── gui/
+│       │               ├── LoginFrame.java       # Login ekranı
+│       │               ├── MainFrame.java        # Ana menü ekranı
+│       │               ├── dialogs/              # Dialog pencereleri
+│       │               └── panels/               # Panel bileşenleri
+│       └── resources/
+│           └── logo.png                     # Üniversite logosu
+└── bin/                        # Derlenmiş sınıf dosyaları
+```
+
 
 
 ## Eclipse'de Açma
